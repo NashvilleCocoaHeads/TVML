@@ -11,6 +11,8 @@
 		4CA42B5723136B5100396A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA42B5623136B5100396A0C /* Assets.xcassets */; };
 		4CA42B5F23136F0000396A0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA42B5E23136F0000396A0C /* README.md */; };
 		4CA42B6123136F0C00396A0C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CA42B6023136F0C00396A0C /* LICENSE */; };
+		4CBF814F2317466A00D0EFDD /* Quote.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF814E2317466A00D0EFDD /* Quote.xml */; };
+		4CBF81522317512500D0EFDD /* Quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4CBF81512317512500D0EFDD /* Quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4CA42B5823136B5100396A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA42B5E23136F0000396A0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4CA42B6023136F0C00396A0C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4CBF814E2317466A00D0EFDD /* Quote.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Quote.xml; sourceTree = "<group>"; };
+		4CBF81512317512500D0EFDD /* Quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,30 @@
 		4CA42B5223136B4E00396A0C /* CocoaHeads TVML */ = {
 			isa = PBXGroup;
 			children = (
+				4CBF81502317511700D0EFDD /* Data */,
+				4CBF814D231745FD00D0EFDD /* Views */,
 				4CA42B5323136B4E00396A0C /* AppDelegate.swift */,
 				4CA42B5523136B4E00396A0C /* application.js */,
 				4CA42B5623136B5100396A0C /* Assets.xcassets */,
 				4CA42B5823136B5100396A0C /* Info.plist */,
 			);
 			path = "CocoaHeads TVML";
+			sourceTree = "<group>";
+		};
+		4CBF814D231745FD00D0EFDD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF814E2317466A00D0EFDD /* Quote.xml */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CBF81502317511700D0EFDD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF81512317512500D0EFDD /* Quotes.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA42B6123136F0C00396A0C /* LICENSE in Resources */,
+				4CBF81522317512500D0EFDD /* Quotes.json in Resources */,
 				4CA42B5F23136F0000396A0C /* README.md in Resources */,
+				4CBF814F2317466A00D0EFDD /* Quote.xml in Resources */,
 				4CA42B5723136B5100396A0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

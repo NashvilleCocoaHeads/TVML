@@ -1,0 +1,19 @@
+<document>
+    <head>
+        <style>
+            .red {
+                color: red;
+            }
+        </style>
+    </head>
+    <alertTemplate>
+        <background>
+            <img id="image" src="https://source.unsplash.com/random"/>
+        </background>
+        <title class="red" id="quote"></title>
+        <description id="attribution">This is our new TVML app</description>
+        <button id="next">
+            <text>Next</text>
+        </button>
+    </alertTemplate>
+</document>
